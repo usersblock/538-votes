@@ -1,22 +1,22 @@
-function person(first, last, party, state, stats){
-this.firstname=first;
-this.lastname=last;
-this.party=party;
-this.state=state;
+function person(stats){
+this.firstname=stats[0];
+this.lastname=stats[1];
+this.party=stats[2];
+this.state[stats[3];
 this.liberal=0;
 this.moderate=0;
 this.conservative=0;
-this.charisma=stats[0];
-this.appearance=stats[1];
-this.credibility=stats[2]
-this.experience=stats[3];
-this.intelligence=stats[4];
-this.mediabias=stats[5];
-this.minorityappeal=stats[6];
-this.religious=stats[7];
-this.fundraisingability=stats[8];
-this.stamina=stats[9];
-this.funds=stats[10];
+this.charisma=stats[4];
+this.appearance=stats[5];
+this.credibility=stats[6]
+this.experience=stats[7];
+this.intelligence=stats[8];
+this.mediabias=stats[9];
+this.minorityappeal=stats[10];
+this.religious=stats[11];
+this.fundraisingability=stats[12];
+this.stamina=stats[13];
+this.funds=stats[14];
 
 this.getName= function(){
 return(this.firstname+" "+this.lastname);
