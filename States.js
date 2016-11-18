@@ -1,13 +1,13 @@
-function States(name , points, wealth, stats){
-this.name=name;
-this.points=points;
-this.wealth=wealth;
-this.liberal=stats[0];
-this.moderate=stats[1];
-this.conservative=stats[2];
-this.democrat=stats[3];
-this.independent=stats[4];
-this.republican=stats[5];
+function States(nstats){
+this.name=stats[0];
+this.points=stats[1];
+this.wealth=stats[2];
+this.liberal=stats[3];
+this.moderate=stats[4];
+this.conservative=stats[5];
+this.democrat=stats[6];
+this.independent=stats[7];
+this.republican=stats[8];
   
 this.getName=function(){
 return this.name;
