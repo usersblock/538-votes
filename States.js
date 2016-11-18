@@ -1,4 +1,4 @@
-function States(nstats){
+function States(stats){
 this.name=stats[0];
 this.points=stats[1];
 this.wealth=stats[2];
