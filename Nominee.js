@@ -10,7 +10,7 @@ stamina,funds)
 
 
 
-function person(stats){
+function Nominee(stats){
 this.firstname=stats[0];
 this.lastname=stats[1];
 this.party=stats[2];
