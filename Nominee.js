@@ -14,7 +14,7 @@ function Nominee(stats){
 this.firstname=stats[0];
 this.lastname=stats[1];
 this.party=stats[2];
-this.state[stats[3];
+this.state=stats[3];
 this.liberal=0;
 this.moderate=0;
 this.conservative=0;
