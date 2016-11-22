@@ -44,7 +44,7 @@ return this.state;
 }
 
 //Output:Will return the liberal appeal in integer form.
-this.getLiberalAppeal(){
+this.getLiberalAppeal=function(){
 return this.liberal;
 }
 /*Input:Will take an integer change.
@@ -53,7 +53,7 @@ this.changeLiberalAppeal=function(change){
 this.liberal=this.liberal+change;  
 
 //Output:Will return the moderate appeal in integer form.  
-this.getModerateAppeal(){
+this.getModerateAppeal=function(){
 return this.moderate;
 }
 /*Input:Will take an integer change.
@@ -63,7 +63,7 @@ this.moderate=this.moderate+change;
 }
 
 //Output:Will return the conservative appeal in integer form.
-this.getConservativeAppeal(){
+this.getConservativeAppeal=function(){
 return this.conservative;
 }
 /*Input:Will take an integer change.
