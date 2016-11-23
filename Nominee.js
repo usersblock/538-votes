@@ -51,7 +51,7 @@ return this.liberal;
 Output:Will change the liberal variable by "change" amount.*/
 this.changeLiberalAppeal=function(change){
 this.liberal=this.liberal+change;  
-
+}
 //Output:Will return the moderate appeal in integer form.  
 this.getModerateAppeal=function(){
 return this.moderate;
